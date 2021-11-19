@@ -2,11 +2,7 @@
 
 > Exercícios das listas da matéria de POO
 
-<br>
-
 ## Ref 🗃️
-
-<br>
 
 ### Lista 01 - Semana 03
 - Q01.java ➡️ Q06 da lista
