@@ -1,12 +1,12 @@
 /*
-* Autor: Tiago Rodrigues dos Santos
-* Data: 21/11/2021
-* Descrição: Calcula dinheiro gasto por um fumante com dados informados pelo usuário
+ * Autor: Tiago Rodrigues dos Santos
+ * Data: 21/11/2021
+ * Descrição: Calcula dinheiro gasto por um fumante com dados informados pelo usuário
 */
 
 import java.util.Scanner;
 
-public class Q04 {
+public class Q11 {
 
 	public static void main(String[] args) {
 		Scanner scanTeclado = new Scanner(System.in);
@@ -27,9 +27,9 @@ public class Q04 {
 		
 		double dinheiroGasto = quantidadeTotalCigarros * precoCigarro;
 		
-		System.out.print("/n");
+		System.out.print("\n");
 		
-		System.out.printf("> Esse fumante gastou R$ %.2f com cigarros", dinheiroGasto);
+		System.out.format("> Esse fumante gastou R$ %.2f com cigarros \n", dinheiroGasto);
 
 	}
 

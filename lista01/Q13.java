@@ -1,6 +1,13 @@
+/*
+ * Autor: Tiago Rodrigues dos Santos
+ * Data: 21/11/2021
+ * Descrição: Lê o valor de um produto e em parcelas o usuário deseja pagar e imprime o valor da parcela e 
+ * o valor da multa em caso de atraso do pagamento
+*/
+
 import java.util.Scanner;
 
-public class Q05 {
+public class Q13 {
 
 	public static void main(String[] args) {
 		Scanner scanTeclado = new Scanner(System.in);
@@ -18,12 +25,9 @@ public class Q05 {
 		
 		System.out.print("\n");
 		
-		System.out.printf("> Valor da parcela: R$ %.2f", valorParcela);
-		System.out.printf("\n> Valor da multa por atraso: R$ %.2f", valorMulta);
+		System.out.format("> Valor da parcela: R$ %.2f \n", valorParcela);
+		System.out.format("> Valor da multa por atraso: R$ %.2f \n", valorMulta);
 		
-		
-		
-
 	}
 
 }
