@@ -5,17 +5,16 @@ public class Q12 {
 	public static void main(String[] args) {
 		Scanner scanTeclado = new Scanner(System.in);
 		
-		// 1kg = 2.2 libras
-		final double VALOR_1KG_LIBRAS = 2.2;
+		final double VALOR_1JARDA_EM_METROS = 0.91;
 		
-		System.out.print("- Digite o valor em kg: ");
-		double valorKG = scanTeclado.nextDouble();
+		System.out.print("- Digite o valor em jardas: ");
+		double valorJardas = scanTeclado.nextDouble();
 		
-		double kgEmLibras = valorKG * VALOR_1KG_LIBRAS;
+		double valorConvertido = valorJardas * VALOR_1JARDA_EM_METROS;
 		
-		System.out.print("\n");;
+		System.out.print("\n");
 		
-		System.out.format("> %.2fkg é igual a %.2f libras", valorKG, kgEmLibras);
+		System.out.format("> %.2f jardas é igual %.2f metros", valorJardas, valorConvertido);
 
 	}
 

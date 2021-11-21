@@ -5,32 +5,21 @@ public class Q15 {
 	public static void main(String[] args) {
 		Scanner scanTeclado = new Scanner(System.in);
 		
-		System.out.println("# PLANO 1");
+		final int diasDe1Ano = 365;
+		final int diasDe1Mes = 30;
 		
-		System.out.print("- Digite o valor de x: ");
-		double pontoX1 = scanTeclado.nextDouble();
+		System.out.print("- Digite quantos dias de vida você tem: ");
+		int diasDeVida = scanTeclado.nextInt();
 		
-		System.out.print("- Digite o valor de y: ");
-		double pontoY1 = scanTeclado.nextDouble();
+		int anosDeVida = diasDeVida / diasDe1Ano;
+		diasDeVida = diasDeVida % diasDe1Ano;
 		
-		System.out.print("\n");
-		
-		System.out.println("# PLANO 2");
-		
-		System.out.print("- Digite o valor de x: ");
-		double pontoX2 = scanTeclado.nextDouble();
-		
-		System.out.print("- Digite o valor de y: ");
-		double pontoY2 = scanTeclado.nextDouble();
-		
-		double deltaXAoQuadrado = Math.pow((pontoX2 - pontoX1), 2);
-		double deltaYAoQuadrado = Math.pow((pontoY2 - pontoY1), 2);
-		
-		double distancia = Math.sqrt(deltaXAoQuadrado + deltaYAoQuadrado);
+		int mesesDeVida = diasDeVida / diasDe1Mes;
+		diasDeVida = diasDeVida % diasDe1Mes;
 		
 		System.out.print("\n");
 		
-		System.out.format("> A distância entre os pontos é %.4f", distancia);
+		System.out.format("> Você tem: %d anos(s), %d mês(es) e %d dia(s) de vida", anosDeVida, mesesDeVida, diasDeVida);
 
 	}
 

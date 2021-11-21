@@ -5,16 +5,24 @@ public class Q13 {
 	public static void main(String[] args) {
 		Scanner scanTeclado = new Scanner(System.in);
 		
-		final double VALOR_1EURO_REAL = 4.32;
+		final double PERCENTUAL_MULTA = 0.02; // 2%
 		
-		System.out.print("- Digite o valor em euro: ");
-		double valorEuro = scanTeclado.nextDouble();
+		System.out.print("- Digite o valor do produto: ");
+		double valorProduto = scanTeclado.nextDouble();
 		
-		double valorConvertido = valorEuro * VALOR_1EURO_REAL;
+		System.out.print("- Digite a quantidade de parcelas desejada: ");
+		int quantParcelas = scanTeclado.nextInt();
+		
+		double valorParcela = valorProduto / quantParcelas;
+		double valorMulta = valorParcela * PERCENTUAL_MULTA;
 		
 		System.out.print("\n");
 		
-		System.out.format("> %.2f euros é igual R$ %.2f", valorEuro, valorConvertido);
+		System.out.printf("> Valor da parcela: R$ %.2f", valorParcela);
+		System.out.printf("\n> Valor da multa por atraso: R$ %.2f", valorMulta);
+		
+		
+		
 
 	}
 
