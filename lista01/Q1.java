@@ -1,3 +1,9 @@
+/*
+ * Autor: Tiago Rodrigues dos Santos
+ * Data: 21/11/2021
+ * Descrição: Lê um número imprime sua quinta pôtencia e sua raiz quadrada
+*/
+
 import java.util.Scanner;
 
 public class Q1 {
@@ -13,8 +19,8 @@ public class Q1 {
 
 		System.out.print("\n");
 
-		System.out.format("> A raiz quadrada de %.2f é %.2f", numeroDigitado, raizQuadrada);
-		System.out.format("\n> A quinta potência de %.2f é %.2f", numeroDigitado, quintaPotencia);
+		System.out.format("> A raiz quadrada de %.2f é %.2f \n", numeroDigitado, raizQuadrada);
+		System.out.format("> A quinta potência de %.2f é %.2f \n", numeroDigitado, quintaPotencia);
 
 	}
 

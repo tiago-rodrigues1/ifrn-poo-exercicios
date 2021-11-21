@@ -1,3 +1,9 @@
+/*
+ * Autor: Tiago Rodrigues dos Santos
+ * Data: 21/11/2021
+ * Descrição: Lê um valor em jardas e o imprime convertido em metros
+*/
+
 import java.util.Scanner;
 
 public class Q12 {
@@ -14,7 +20,7 @@ public class Q12 {
 		
 		System.out.print("\n");
 		
-		System.out.format("> %.2f jardas é igual %.2f metros", valorJardas, valorConvertido);
+		System.out.format("> %.2f jardas é igual %.2f metros \n", valorJardas, valorConvertido);
 
 	}
 

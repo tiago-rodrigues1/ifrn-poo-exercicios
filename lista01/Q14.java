@@ -1,3 +1,9 @@
+/*
+ * Autor: Tiago Rodrigues dos Santos
+ * Data: 21/11/2021
+ * Descrição: Lê o valor de 4 pontos e imprime distância entre eles
+*/
+
 import java.util.Scanner;
 
 public class Q14 {
@@ -30,7 +36,7 @@ public class Q14 {
 		
 		System.out.print("\n");
 		
-		System.out.format("> A distância entre os pontos é %.4f", distancia);
+		System.out.format("> A distância entre os pontos é %.4f \n", distancia);
 
 	}
 

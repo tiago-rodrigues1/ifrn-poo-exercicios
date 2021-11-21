@@ -1,3 +1,9 @@
+/*
+ * Autor: Tiago Rodrigues dos Santos
+ * Data: 21/11/2021
+ * Descrição: Lẽ dois números e imprime o dividendo, o divisor, o quociente e o resto da divisão entre eles
+*/
+
 import java.util.Scanner;
 
 public class Q2 {

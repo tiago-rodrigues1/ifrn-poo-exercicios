@@ -1,7 +1,7 @@
 /*
-* Autor: Tiago Rodrigues dos Santos
-* Data: 21/11/2021
-* Descrição: Ler o saldo do usuário e imprime um novo reajustado +7,5%
+ * Autor: Tiago Rodrigues dos Santos
+ * Data: 21/11/2021
+ * Descrição: Ler o saldo do usuário e imprime um novo reajustado +7,5%
 */
 
 import java.util.Scanner;
@@ -20,7 +20,7 @@ public class Q6 {
 
 		System.out.print("\n");
 
-		System.out.printf("> Seu novo saldo é R$ %.2f", novoSaldo);
+		System.out.printf("> Seu novo saldo é R$ %.2f \n", novoSaldo);
 
 	}
 

@@ -18,7 +18,7 @@ public class Q4 {
 
 		System.out.print("\n");
 
-		System.out.format("> A nota final desse candidato é: %.2f", notaFinal);
+		System.out.format("> A nota final desse candidato é: %.2f\n", notaFinal);
 	}
 
 }
