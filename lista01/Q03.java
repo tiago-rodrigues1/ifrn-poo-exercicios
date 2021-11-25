@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class Q3 {
+public class Q03 {
 
 	public static void main(String[] args) {
 		Scanner scanTeclado = new Scanner(System.in);
