@@ -21,3 +21,7 @@
 - [Q13.java](lista01/Q13.java) ➡️ Q20 da lista
 - [Q14.java](lista01/Q14.java) ➡️ Q22 da lista
 - [Q15.java](lista01/Q15.java) ➡️ Q23 da lista
+
+### Lista 02 - Semana 04
+
+- Cada número antes de `.java` equivale ao número da questão na lista
