@@ -21,23 +21,25 @@ public class Q04 {
 				menor = num1;
 				meio = num2;
 				maior = num3;
+
+			} else if (num1 < num3) {
+				menor = num1;
+				meio = num3;
+				maior = num2;
+
 			} else {
-				if (num1 < num3) {
-					menor = num1;
-					meio = num3;
-					maior = num2;
-				} else {
-					menor = num3;
-					meio = num1;
-					maior = num2;
-				}
+				menor = num3;
+				meio = num1;
+				maior = num2;
 			}
+
 		} else {
 			if (num2 < num3) {
 				if (num1 < num3) {
 					menor = num2;
 					meio = num1;
 					maior = num3;
+
 				} else {
 					menor = num2;
 					meio = num3;
@@ -49,9 +51,12 @@ public class Q04 {
 				meio = num2;
 				maior = num1;
 			}
+
 		}
 
-		System.out.format("\n> %.2f, %.2f, %.2f", menor, meio, maior);
+		System.out.format("\n> %.2f, %.2f, %.2f\n", menor, meio, maior);
+
+		scanTeclado.close();
 
 	}
 
