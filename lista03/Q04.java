@@ -6,7 +6,7 @@ public class Q04 {
 		Scanner scanTeclado = new Scanner(System.in);
 
 		int i = 1;
-		int fatorial = 1;
+		double fatorial = 1;
 
 		System.out.print("- Digite um número: ");
 		int num = scanTeclado.nextInt();
