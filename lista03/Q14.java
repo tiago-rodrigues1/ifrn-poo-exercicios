@@ -15,7 +15,7 @@ public class Q14 {
 		System.out.println("104 Cheeseburger        R$ 1,30");
 		System.out.println("105 Refrigerante        R$ 1,00");
 
-		while (true) {
+		do {
 			double precoProduto = 0;
 			int quantidade = 0;
 
@@ -86,7 +86,8 @@ public class Q14 {
 			double subtotal = precoProduto * quantidade;
 
 			total += subtotal;
-		}
+
+		} while (true);
 
 		System.out.format("\n> Preço total do seu pedido: R$ %.2f\n", total);
 
