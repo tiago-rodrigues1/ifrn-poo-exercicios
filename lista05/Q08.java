@@ -1,3 +1,7 @@
+/*
+ * Dupla: Tiago Rodrigues e Gabrielly Beatriz
+*/
+
 import java.util.Scanner;
 
 public class Q08 {
@@ -11,7 +15,7 @@ public class Q08 {
 		
 		for (int i = 0; i < m.length; i++) {
 			for (int j = 0; j < m[i].length; j++) {
-				System.out.printf("- Digite um valor para [%d][%d]", i, j);
+				System.out.printf("- Digite um valor para [%d][%d]: ", i, j);
 				m[i][j] = scan.nextInt();
 				
 				if (i == 2) {
@@ -32,10 +36,12 @@ public class Q08 {
 			System.out.print(i + " ");
 		}
 		
-		System.out.println("\n# Elementos das linhas pares: ");
+		System.out.println("\n\n# Elementos das linhas pares: ");
 		for (int i : linhasParesElementos) {
 			System.out.print(i + " ");
 		}
+
+		System.out.println();
 		
 		scan.close();
 

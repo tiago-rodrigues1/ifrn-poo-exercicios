@@ -1,3 +1,7 @@
+/*
+ * Dupla: Tiago Rodrigues e Gabrielly Beatriz
+*/
+
 import java.util.Scanner;
 
 public class Q09 {
@@ -49,7 +53,7 @@ public class Q09 {
 			quantNulos = 0;
 		}
 		
-		System.out.printf("\n> A matriz tem %d linha(s) nula(s) e %d coluna(s) nula(s)", linhasNulas, colsNulas);
+		System.out.printf("\n> A matriz tem %d linha(s) nula(s) e %d coluna(s) nula(s)\n", linhasNulas, colsNulas);
 		
 		scan.close();
 

@@ -1,3 +1,7 @@
+/*
+ * Dupla: Tiago Rodrigues e Gabrielly Beatriz
+*/
+
 import java.util.Scanner;
 
 public class Q07 {
@@ -30,7 +34,7 @@ public class Q07 {
 			}
 		}
 		
-		System.out.println("\n# Diferença das matrizes\n");
+		System.out.println("\n# Diferenï¿½a das matrizes\n");
 		
 		for (int i = 0; i < diferencas.length; i++) {
 			for (int j = 0; j < diferencas[i].length; j++) {
@@ -43,8 +47,6 @@ public class Q07 {
 		}
 		
 		scan.close();
-		
-
 	}
 
 }
