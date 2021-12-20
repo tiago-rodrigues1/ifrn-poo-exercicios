@@ -1,3 +1,7 @@
+/*
+ * Dupla: Tiago Rodrigues e Gabrielly Beatriz
+*/
+
 import java.util.Scanner;
 
 public class Q05 {
