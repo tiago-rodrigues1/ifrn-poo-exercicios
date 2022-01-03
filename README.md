@@ -9,3 +9,5 @@
 - [Lista 03](lista03)
 - [Lista 04](lista04)
 - [Lista 05](lista05)
+- [Lista 06](lista06)
+- [Lista 07](lista07)
