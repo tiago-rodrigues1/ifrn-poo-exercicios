@@ -11,3 +11,4 @@
 - [Lista 05](lista05)
 - [Lista 06](lista06)
 - [Lista 07](lista07)
+- [Encapsulamento 01](encapsulamento01)
